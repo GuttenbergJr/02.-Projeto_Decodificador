@@ -2,7 +2,7 @@
 Projeto desenvolvido para criptografar e descriptografar em duas linguagens: Base64 e Cifra de Cesar.
 
 # teconolgias utilizadas 
-no projeto utilizei HTML, CSS e javascript
+no projeto utilizei. HTML, CSS e JAVASCRIPT
 
 # visão geral do projeto
 ![image](https://user-images.githubusercontent.com/114154174/200689559-c3858c2c-7292-4edc-bd5b-d06063cf0206.png)
