@@ -1,5 +1,5 @@
 # Projeto - Decodificador
-Projeto desenvolvido para criptografar e descriptografar em duas linguagens. Base64 e Cifra de Cesar.
+Projeto desenvolvido para criptografar e descriptografar em duas linguagens: Base64 e Cifra de Cesar.
 
 # teconolgias utilizadas 
 no projeto utilizei HTML, CSS e javascript
