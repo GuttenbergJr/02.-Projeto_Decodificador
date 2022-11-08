@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <main>
+            <div class="child">
+
+                <div>
+                    <h1>
+                        <h1>CODIFIQUE AQUI! :)</h1>
+                    </h1>
+                </div>
+
+                <div id="radio_style">
+                    <input type="radio" name="radio" id="b64_radio" onclick="check()">
+                    <label for="radio_base64" class="label_style">BASE 64</label>
+                    <input type="radio" name="radio" id="cesar_radio" onclick="checkC()">
+                    <label for="radio_base64" class="label_style">CESAR</label>
+                </div>
+
+                <div id="textArea">
+                    <textarea name="text" class="Whiteboard" id="texto" cols="30" rows="10"></textarea>
+                </div>
+
+                <div id="buttons_B64">
+                    <button id="codificarB64" class="button">CODIFICAR</button>
+                    <button id="decodificarB64" class="button">DECODIFICAR</button>
+                </div>
+                <div id="buttons_Caesar">
+                    <button id="codificarCesar" class="button">CODIFICAR</button>
+                    <button id="decodificarCesar" class="button">DECODIFICAR</button>
+                </div>
+
+
+                <div id="increment">
+                    <p>INCREMENTO:</p>
+                    <input type="text" id="key">
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

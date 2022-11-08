@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    /* box-sizing: border-box;
+    align-items: center;
+    justify-items: center;
+    text-align: center; */
+}
+
+/* Responsavel pelos botões sumirem e aparecerem */
+#codificarCesar {
+    display: none;
+}
+
+#decodificarCesar {
+    display: none;
+}
+
+#increment{
+    margin: 20px;
+    font-size: 25px;
+    display: none;
+    justify-content: center;
+}
+
+/* Responsavel pelos botões sumirem e aparecerem */
+body {
+    background-image: url(../IMG/backgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0),
+             1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+}
+
+h1{
+    margin: 100px;
+    font-size: 125px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.label_style{
+    margin: 10px;
+    font-size: 25px ;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+  }
+.button{
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+    text-shadow: 2px 0 rgb(0, 0, 0), -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 0 -2px rgb(0, 0, 0),
+             1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+}
+
+  textarea{
+    width: 45vw;
+    height: 25vh;
+    resize: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: gray;
+    color: black;
+    text-shadow: 2px 0 rgb(255, 255, 255), -2px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255), 0 -2px rgb(255, 255, 255),
+    1px 1px rgb(255, 255, 255), -1px -1px rgb(255, 255, 255), 1px -1px rgb(255, 255, 255), -1prgb(255, 255, 255);
+  }
+
+#key{
+    background-color: grey;
+    color: black;
+    text-shadow: 2px 0 rgb(255, 255, 255), -2px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255), 0 -2px rgb(255, 255, 255),
+    1px 1px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 1px -1px rgb(255, 255, 255), -1prgb(255, 255, 255);
+}
