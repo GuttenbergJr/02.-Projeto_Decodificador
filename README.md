@@ -1,10 +1,15 @@
-# Projeto - Decodificador
-Projeto desenvolvido para criptografar e descriptografar em duas linguagens: Base64 e Cifra de Cesar.
+<h1>Codificador Web</h1>
+
+# Sobre o projeto
+
+<h2>O projeto consiste em um site que pode codificar e decodificar mensagens nas seguintes linguagens, Base64 e Cifra de Cesar.</h2>
 
 # Teconolgias utilizadas 
-No projeto utilizei. HTML, CSS e JAVASCRIPT.
+<li>Html</li>
+<li>Css</li>
+<li>Javascript</li>
 
-# Visão geral do projeto
+# Visão geral do projeto  ⇣
 ![image](https://user-images.githubusercontent.com/114154174/200689559-c3858c2c-7292-4edc-bd5b-d06063cf0206.png)
 
 
