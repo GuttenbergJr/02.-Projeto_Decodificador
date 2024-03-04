@@ -1,8 +1,7 @@
 <h1>Codificador Web</h1>
 
 # Sobre o projeto
-
-<h2>O projeto consiste em um site que pode codificar e decodificar mensagens nas seguintes linguagens, Base64 e Cifra de Cesar.</h2>
+- O projeto consiste em um site que pode codificar e decodificar mensagens nas seguintes linguagens, Base64 e Cifra de Cesar. 
 
 # Teconolgias utilizadas 
 <li>Html</li>
